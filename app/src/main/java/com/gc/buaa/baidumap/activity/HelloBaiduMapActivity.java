@@ -1,22 +1,13 @@
-package com.gc.buaa.baidumap;
+package com.gc.buaa.baidumap.activity;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.widget.Button;
 
-import com.baidu.mapapi.SDKInitializer;
-import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.MapStatus;
 import com.baidu.mapapi.map.MapStatusUpdate;
 import com.baidu.mapapi.map.MapStatusUpdateFactory;
-import com.baidu.mapapi.map.MapView;
-import com.baidu.mapapi.model.LatLng;
+import com.gc.buaa.baidumap.R;
 
 /**
  * 百度地图基础功能
@@ -25,22 +16,11 @@ public class HelloBaiduMapActivity extends BaseAcivity implements View.OnClickLi
 
 
 
-    private Button btn_1;
-    private Button btn_2;
-    private Button btn_3;
-    private Button btn_4;
-    private Button btn_5;
+
     private MapStatusUpdate mapStatusUpdate;
 
     @Override
     public void init() {
-
-
-        btn_1 = (Button) findViewById(R.id.btn_1);
-        btn_2 = (Button) findViewById(R.id.btn_2);
-        btn_3 = (Button) findViewById(R.id.btn_3);
-        btn_4 = (Button) findViewById(R.id.btn_4);
-        btn_5 = (Button) findViewById(R.id.btn_5);
 
         btn_1.setOnClickListener(this);
         btn_2.setOnClickListener(this);

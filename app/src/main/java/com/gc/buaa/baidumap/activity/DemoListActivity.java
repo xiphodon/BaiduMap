@@ -1,11 +1,10 @@
-package com.gc.buaa.baidumap;
+package com.gc.buaa.baidumap.activity;
 
 import android.app.ListActivity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -20,7 +19,7 @@ public class DemoListActivity extends ListActivity {
 
     private ClassAndName[] datas = {
             new ClassAndName(HelloBaiduMapActivity.class, "HelloBaiduMap"),
-//            new ClassAndName(MapLayerActivity.class, "地图图层"),
+            new ClassAndName(MapLayerActivity.class, "地图图层"),
 //            new ClassAndName(CircelOverlayActivity.class, "圆形覆盖物"),
 //            new ClassAndName(TextOverlayActivity.class, "文字覆盖物"),
 //            new ClassAndName(MarkerOverlayActivity.class, "标志覆盖物"),

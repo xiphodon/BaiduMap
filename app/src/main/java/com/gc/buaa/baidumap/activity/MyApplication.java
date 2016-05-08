@@ -1,4 +1,4 @@
-package com.gc.buaa.baidumap;
+package com.gc.buaa.baidumap.activity;
 
 import android.app.Application;
 

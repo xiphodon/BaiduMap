@@ -1,9 +1,10 @@
-package com.gc.buaa.baidumap;
+package com.gc.buaa.baidumap.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.baidu.mapapi.map.BaiduMap;
@@ -11,6 +12,7 @@ import com.baidu.mapapi.map.MapStatusUpdate;
 import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.model.LatLng;
+import com.gc.buaa.baidumap.R;
 import com.gc.buaa.baidumap.utils.Utils;
 
 /**
@@ -29,6 +31,12 @@ public abstract class BaseAcivity extends AppCompatActivity {
 
     protected MapView mapView;
     protected BaiduMap baiduMap;
+
+    protected Button btn_1;
+    protected Button btn_2;
+    protected Button btn_3;
+    protected Button btn_4;
+    protected Button btn_5;
 
     // 这里加final是为了不让子类覆盖，原因是为了预防这里的一些类还没初始化的时候就被子类调用
     @Override
@@ -62,6 +70,12 @@ public abstract class BaseAcivity extends AppCompatActivity {
         // 6.	获取地图Ui控制器：隐藏指南针
         // UiSettings uiSettings = baiduMap.getUiSettings();
         // uiSettings.setCompassEnabled(false);	//  不显示指南针
+
+        btn_1 = (Button) findViewById(R.id.btn_1);
+        btn_2 = (Button) findViewById(R.id.btn_2);
+        btn_3 = (Button) findViewById(R.id.btn_3);
+        btn_4 = (Button) findViewById(R.id.btn_4);
+        btn_5 = (Button) findViewById(R.id.btn_5);
 
         init();
     }
