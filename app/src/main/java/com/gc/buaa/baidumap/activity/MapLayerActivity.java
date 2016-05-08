@@ -1,17 +1,15 @@
 package com.gc.buaa.baidumap.activity;
 
-import android.util.Log;
 import android.view.View;
 
 import com.baidu.mapapi.map.BaiduMap;
-import com.baidu.mapapi.map.MapStatus;
-import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.gc.buaa.baidumap.R;
 
 /**
+ * 图层
  * Created by Administrator on 2016/5/8.
  */
-public class MapLayerActivity extends BaseAcivity implements View.OnClickListener {
+public class MapLayerActivity extends BaseActivity implements View.OnClickListener {
     @Override
     public void init() {
         btn_1.setText("普通地图");

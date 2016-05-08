@@ -12,7 +12,7 @@ import com.gc.buaa.baidumap.R;
 /**
  * 百度地图基础功能
  */
-public class HelloBaiduMapActivity extends BaseAcivity implements View.OnClickListener {
+public class HelloBaiduMapActivity extends BaseActivity implements View.OnClickListener {
 
 
 

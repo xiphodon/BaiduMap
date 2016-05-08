@@ -18,7 +18,7 @@ import com.gc.buaa.baidumap.utils.Utils;
 /**
  * Activity基类
  */
-public abstract class BaseAcivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
 
     protected static final String TAG = "test";
