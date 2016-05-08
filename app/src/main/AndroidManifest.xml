@@ -30,11 +30,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.HelloBaiduMapActivity"></activity>
-        <activity android:name=".activity.MapLayerActivity"></activity>
-        <activity android:name=".activity.CircelOverlayActivity"></activity>
-        <activity android:name=".activity.TextOverlayActivity"></activity>
-        <activity android:name=".activity.MarkerOverlayActivity"></activity>
+        <activity android:name=".activity.HelloBaiduMapActivity" />
+        <activity android:name=".activity.MapLayerActivity" />
+        <activity android:name=".activity.CircelOverlayActivity" />
+        <activity android:name=".activity.TextOverlayActivity" />
+        <activity android:name=".activity.MarkerOverlayActivity" />
+        <activity android:name=".activity.SearchInBoundActivity" />
+        <activity android:name=".activity.PoiSearchBaseActivity" />
+        <activity android:name=".activity.SearchInCityActivity" />
+        <activity android:name=".activity.SearchInNearbyActivity"></activity>
     </application>
 
 </manifest>
