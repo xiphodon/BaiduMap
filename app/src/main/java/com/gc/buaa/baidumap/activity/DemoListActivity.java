@@ -22,7 +22,7 @@ public class DemoListActivity extends ListActivity {
             new ClassAndName(MapLayerActivity.class, "地图图层"),
             new ClassAndName(CircelOverlayActivity.class, "圆形覆盖物"),
             new ClassAndName(TextOverlayActivity.class, "文字覆盖物"),
-//            new ClassAndName(MarkerOverlayActivity.class, "标志覆盖物"),
+            new ClassAndName(MarkerOverlayActivity.class, "marker覆盖物"),
 //            new ClassAndName(SearchInBoundActivity.class, "在范围内搜索"),
 //            new ClassAndName(SearchInCityActivity.class, "在城市内搜索"),
 //            new ClassAndName(SearchInNearbyActivity.class, "在周边内搜索"),

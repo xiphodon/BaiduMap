@@ -34,6 +34,7 @@
         <activity android:name=".activity.MapLayerActivity"></activity>
         <activity android:name=".activity.CircelOverlayActivity"></activity>
         <activity android:name=".activity.TextOverlayActivity"></activity>
+        <activity android:name=".activity.MarkerOverlayActivity"></activity>
     </application>
 
 </manifest>
