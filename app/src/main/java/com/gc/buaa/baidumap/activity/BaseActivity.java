@@ -27,6 +27,10 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected LatLng tamPos = new LatLng(39.915112,116.403963);
     /**科教城坐标*/
     protected LatLng kjcPos = new LatLng(32.180054,121.381525);
+    /**二七塔坐标*/
+    protected LatLng eqtPos = new LatLng(34.759026,113.673442);
+    /**绿博园坐标*/
+    protected LatLng lbyPos = new LatLng(34.76555,113.919944);
 
 
     protected MapView mapView;

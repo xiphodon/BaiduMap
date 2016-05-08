@@ -1,7 +1,5 @@
 package com.gc.buaa.baidumap.activity;
 
-import android.view.View;
-
 import com.baidu.mapapi.search.core.PoiInfo;
 import com.baidu.mapapi.search.core.SearchResult;
 import com.baidu.mapapi.search.poi.OnGetPoiSearchResultListener;
