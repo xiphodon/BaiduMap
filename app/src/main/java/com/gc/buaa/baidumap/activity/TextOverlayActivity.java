@@ -20,7 +20,7 @@ public class TextOverlayActivity extends BaseActivity{
 
         TextOptions options = new TextOptions();
         options.position(kjcPos)			// 位置
-                .text("科教城")			// 文字内容
+                .text("南通")			// 文字内容
                 .fontSize(50)			// 文字大小
                 .fontColor(0XFF000000)	// 文字颜色
                 .bgColor(0X55FF0000)	// 背景颜色

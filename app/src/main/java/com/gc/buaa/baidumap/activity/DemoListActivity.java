@@ -72,7 +72,7 @@ public class DemoListActivity extends ListActivity {
 
 
     /**
-     * 程序启动后监听Key是否正确
+     * 程序启动后注册广播接受者监听Key是否正确
      */
     private void registerSDKcheckReceiver() {
         sdKcheckReceiver = new SDKcheckReceiver();
